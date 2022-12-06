@@ -13,11 +13,14 @@ public class librarycontroller {
 public String Home(){
     return "homepage";
 }
-@PostMapping("\admin")
+@PostMapping("/admin")
     public String adminlogin(){
     return "admin";
 }
-
+@PostMapping("/userlogin")
+    public  String userlogin(){
+    return "user";
+}
 
 
 
